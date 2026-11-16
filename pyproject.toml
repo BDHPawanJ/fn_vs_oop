@@ -1,0 +1,8 @@
+[project]
+name = "fn-vs-oop"
+version = "1.0.0"
+description = "Functional vs OOP design comparison POC"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["core_concepts/tests", "advanced_concepts/tests", "shared_lib/tests"]
